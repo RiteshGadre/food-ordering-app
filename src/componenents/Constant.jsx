@@ -1,4 +1,4 @@
-export const menu= [
+export const restaurantList= [
     {
       "id": 1,
       "name": "Margherita Pizza",

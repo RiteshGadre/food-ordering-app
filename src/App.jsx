@@ -1,12 +1,12 @@
 import Nav from "./componenents/Nav"
-import RestrauCard from "./componenents/RestrauCard"
+import Body from "./componenents/Body"
 
 function App() {
 
   return (
     <>
       <Nav className="mb-2"></Nav>
-      <RestrauCard/>
+      <Body/>
     </>
   )
 }
