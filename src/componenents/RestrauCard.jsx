@@ -2,11 +2,14 @@ import PropTypes from 'prop-types';
 
 const RestrauCard = ({ image_url, name, price, description }) => {
     return (
-        <div className="max-w-48 card rounded-md px-1 py-1 flex flex-col gap-1 border-[1px] border-black m-5">
+        <div className="max-w-48 hover:scale-95 hover:duration-150 card rounded-md px-1 py-1 flex flex-col gap-1 m-5">
             <img className="img rounded-lg" src={image_url} alt="" />
-            <h1 className="name">{name}</h1>
-            <p className="price">{price}$</p>
-            <p className="cuisines">{description}</p>
+            <div className="px-2">
+                <h1 className="name font-medium">{name}</h1>
+                <p className="price font-medium">{price}$</p>
+                <p className="cuisines text-[#686b78]">{description}</p>
+            </div>
+            
         </div>
     );
 }
