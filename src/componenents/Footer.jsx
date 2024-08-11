@@ -5,7 +5,8 @@ const Footer = () => {
     <div className="w-full bg-[#31363F] text-white px-3 py-3 flex justify-between flex-wrap">
       <div className="copyright">
         <h1>Food Villa</h1>
-        <p>© 2024 Bundl Technologies Pvt. Ltd</p>
+        <p>© 2024 FV Pvt. Ltd</p>
+        {/* <p>© 2024 Bundl Technologies Pvt. Ltd</p> */}
       </div>
 
       <div className="company">
@@ -36,10 +37,11 @@ const Footer = () => {
       </div>
       <div className="we-deliver-to">
         <ul>
-          <li>Banglore</li>
-          <li>Gurgaon</li>
-          <li>Hyderabad</li>
-          <li>Delhi</li>
+          <li>Chicago</li>
+          <li>Houston</li>
+          <li>Phoenics</li>
+          <li>San Diego</li>
+          <li>Dallas</li>
         </ul>
       </div>
     </div>

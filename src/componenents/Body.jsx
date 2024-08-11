@@ -6,8 +6,9 @@ import { useState } from "react";
 const Body= () => {
     const [searchText, setSearchText]= useState("");
     const [restaurants, setRestaurants]= useState(restaurantList);
+    const [restaurantCopyList, setRestaurantsCopyList] = useState(restaurants);
     return(
-        <div className="mt-16">
+        <div className="mt-4">
             {/* <div className="search-container flex justify-center w-full">
                 <input
                     type="text" 

@@ -5,6 +5,7 @@ export const restaurantList= [
       "description": "Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.",
       "price": 9.99,
       "category": "Pizza",
+      "foodType" : "Launch",
       "image_url": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWFyZ2hlcml0YSUyMFBpenphfGVufDB8fDB8fHww"
     },
     {
@@ -13,6 +14,7 @@ export const restaurantList= [
       "description": "Creamy pasta with grilled chicken, Alfredo sauce, and Parmesan cheese.",
       "price": 12.99,
       "category": "Pasta",
+      "foodType" : "Launch",
       "image_url": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2hpY2tlbiUyMEFsZnJlZG8lMjBQYXN0YXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
@@ -21,6 +23,7 @@ export const restaurantList= [
       "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
       "price": 7.99,
       "category": "Salad",
+      "foodType" : "Breakfast",
       "image_url": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2Flc2FyJTIwU2FsYWR8ZW58MHx8MHx8fDA%3D"
     },
     {
@@ -29,6 +32,7 @@ export const restaurantList= [
       "description": "Classic beef burger with lettuce, tomato, onion, and pickles on a sesame seed bun.",
       "price": 8.99,
       "category": "Burger",
+      "foodType" : "Launch",
       "image_url": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGFtYnVyZ2VyfGVufDB8fDB8fHww"
     },
     {
@@ -37,6 +41,7 @@ export const restaurantList= [
       "description": "Assorted sushi rolls including California roll, tuna roll, and salmon nigiri.",
       "price": 14.99,
       "category": "Sushi",
+      "foodType" : "Launch",
       "image_url": "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U3VzaGklMjBQbGF0dGVyfGVufDB8fDB8fHww"
     },
     {
@@ -45,6 +50,7 @@ export const restaurantList= [
       "description": "Tender chicken pieces in a creamy tomato-based curry sauce, served with rice.",
       "price": 11.99,
       "category": "Indian",
+      "foodType" : "Dinner",
       "image_url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hpY2tlbiUyMFRpa2thJTIwTWFzYWxhfGVufDB8fDB8fHww"
     },
     {
@@ -53,6 +59,7 @@ export const restaurantList= [
       "description": "Stir-fried rice noodles with shrimp, tofu, bean sprouts, and peanuts in a tangy sauce.",
       "price": 10.99,
       "category": "Thai",
+      "foodType" : "Launch",
       "image_url": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UGFkJTIwVGhhaXxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
@@ -61,6 +68,7 @@ export const restaurantList= [
       "description": "Creamy risotto rice cooked with mushrooms, onions, and Parmesan cheese.",
       "price": 10.99,
       "category": "Italian",
+      "foodType" : "Dinner",
       "image_url": "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TXVzaHJvb20lMjBSaXNvdHRvJTIwZGlzaHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
@@ -69,6 +77,7 @@ export const restaurantList= [
       "description": "Soft corn tortillas filled with seasoned beef, lettuce, cheese, and salsa.",
       "price": 9.99,
       "category": "Mexican",
+      "foodType" : "Launch",
       "image_url": "https://images.unsplash.com/photo-1619221882161-95135fca04e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmVlZiUyMFRhY29zfGVufDB8fDB8fHww"
     },
     {
@@ -77,6 +86,7 @@ export const restaurantList= [
       "description": "Assorted vegetables stir-fried in a savory sauce, served with rice or noodles.",
       "price": 8.99,
       "category": "Chinese",
+      "foodType" : "Dinner",
       "image_url": "https://images.unsplash.com/photo-1648421778395-82d9881acf72?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VmVnZXRhYmxlJTIwU3RpciUyMEZyeXxlbnwwfHwwfHx8MA%3D%3D",
       // "image_url": "https://via.placeholder.com/300"
     }

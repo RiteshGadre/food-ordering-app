@@ -8,6 +8,7 @@ import About from "./componenents/About"
 import Contact from "./componenents/Contact"
 import Error from './componenents/Error'
 import SignIn from './componenents/SignIn'
+import Filters from './componenents/Filters'
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
   
 const App = (() =>  {
@@ -15,7 +16,9 @@ const App = (() =>  {
   return (
     <>
       <Header />
-      <Outlet></Outlet>
+      <Filters />
+      <Body></Body>
+      {/* <Outlet></Outlet> */}
       {/* <Body/> */}
       <Footer />
     </>
@@ -40,11 +43,8 @@ const AppRouter= createBrowserRouter([
         {
           path: "/contact",
           element: <Contact />
-        },
-        {
-          path: "/signin",
-          element : <SignIn/>
         }
+        
     ]
   }
 ])

@@ -1,0 +1,19 @@
+Here’s how the dishes can be categorized:
+
+**Breakfast:**
+- Caesar Salad
+
+**Lunch:**
+- Margherita Pizza
+- Chicken Alfredo Pasta
+- Hamburger
+- Sushi Platter
+- Beef Tacos
+- Pad Thai
+
+**Dinner:**
+- Chicken Tikka Masala
+- Mushroom Risotto
+- Vegetable Stir Fry
+
+These categories are based on typical eating habits, but these dishes can be enjoyed at any time depending on preference.
